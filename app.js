@@ -7,7 +7,8 @@ var app            = express();
 
 // APP CONFIG
 //mongoose.connect("mongodb://localhost/my_blog_app");
-mongoose.connect("mongodb://nitingahlawat0007:eyeofthetiger7@ds217138.mlab.com:17138/nitinblog");
+//password for this connection has been changed
+mongoose.connect("mongodb://nitingahlawat0007:e7@ds217138.mlab.com:17138/nitinblog");
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
